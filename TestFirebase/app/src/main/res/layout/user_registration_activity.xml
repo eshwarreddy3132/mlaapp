@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafafa">
+
+    <LinearLayout
+        android:id="@+id/submitlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:weightSum="1">
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:minHeight="?attr/actionBarSize"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:layout_weight="1"
+            android:background="@color/actionbarcolor"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/form_linearlayout"
+        android:layout_above="@id/submitlay">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/regFirstNameTIL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/editTextHint"
+                    android:paddingTop="5dp"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+                    <EditText
+                        android:id="@+id/regFirstName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textCapSentences|text"
+                        android:hint="First Name" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/regLastNnameTIL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/editTextHint"
+                    android:paddingTop="5dp"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+                    <EditText
+                        android:id="@+id/regLastName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textCapSentences|text"
+                        android:hint="Last Name" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/regmobileNumTIL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/editTextHint"
+                    android:paddingTop="5dp"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+                    <EditText
+                        android:id="@+id/regmobileNum"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="phone"
+                        android:maxLength="10"
+                        android:hint="Mobile Number" />
+
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/regEmailTIL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/editTextHint"
+                    android:paddingTop="5dp"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+                    <EditText
+                        android:id="@+id/regEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:ems="10"
+                        android:hint="E-Mail Id    (Optional)" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/regDateOfBirthTTL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:paddingTop="5dp"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:focusable="false"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+                       <!-- <EditText
+                            android:id="@+id/regDateOfBirth"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="none"
+                            android:focusable="false"
+                            android:hint="Date of Birth"
+                            android:layout_weight="0.6"/>-->
+                        <Button
+                            android:id="@+id/regdatepic"
+                            android:layout_weight="0.4"
+                            android:layout_width="0dp"
+                            android:background="@color/colorHintActivated"
+                            android:layout_height="match_parent"
+                            android:text="Choose Date"/>
+                        <TextView
+                            android:id="@+id/regDateOfBirth"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.6"
+                            android:textColor="@color/actionbarcolor"
+                            android:textSize="23sp"
+                            android:padding="15dp"/>
+
+                    </LinearLayout>
+
+
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/reggenderTTL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/editTextHint"
+                    android:paddingTop="5dp"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+                    <Spinner
+                        android:id="@+id/reggenderSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="10dp"
+                        android:entries="@array/reg_gender"/>
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/regPlaceTTL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/editTextHint"
+                    android:paddingTop="5dp"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+                    <Spinner
+                        android:id="@+id/reglocalitySpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="10dp"
+                        android:entries="@array/reg_locality"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/datepiclinearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.6">
+            <DatePicker
+                android:id="@+id/regdatepicker"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <Button
+            android:id="@+id/ok_datepicker"
+            android:text="ok"
+            android:background="#3F51B5"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+
+            />
+    </LinearLayout>
+
+    <!--android.support.design.widget.CoordinatorLayout-->
+</RelativeLayout>
+
+

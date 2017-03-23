@@ -1,0 +1,234 @@
+<resources>
+    <string name="app_name">Mee Dasyam</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="reportName">Submit your problem</string>
+    <string name="myReportName">My Reports</string>
+    <string name="tourismName">Tourism</string>
+    <string name="bioGraphyName">Biography</string>
+    <string name="myJourneyName">My Journey</string>
+    <string name="feedbackName">Feedback</string>
+    <string name="countactusName">Contact Us</string>
+    <string name="notificationName">Notifications</string>
+    <string name="imp_contacts">Important Contacts</string>
+    <string name="events">Events</string>
+
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="btn_sign_in">Sign In</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="btn_submit">Submit</string>
+    <string name="reg_text">Not Registered?.... SignUp here</string>
+    <string name="hint_reg_mobile">Enter Registered mobile number</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="fullname">Dasyam Vinay Bhaskar</string>
+    <string name="phone">0870-2456119</string>
+    <string name="emailAddress">dasyamofficial@gmail.com</string>
+    <string name="address">(MLA Warangal West)\nH.No: 2-8-173, Waddepally, \nHanamkonda, WARANGAL (U) - 506 370</string>
+    <string name="telugu_address">(శాసన సభ్యులు,వరంగల్ పశ్చిమ) \nH.No: 2-8-173, వడ్డేపల్లి,హన్మకొండ,వరంగల్(యు) - 506 370</string>
+    <string name="contact_phone">Phone: </string>
+    <string name="contact_email">E-Mail: </string>
+    <string name="contact_address_headding">Contact information:\n</string>
+    <string name="telugu_contactheadding">సంప్రదించవలసిన చిరునామా</string>
+    <string name="language_english">Engilsh</string>
+    <string name="contact_telugu_phone">ఫొన్ నంబరు: </string>
+    <string name="contact_telugu_email">ఇమెయిల్: </string>
+    <string name="telugu_fullname">దాస్యం వినయ భాస్కర్</string>
+    <string name="feedback_headding">Please provide your valuable feedback</string>
+    <string name="telugu_feedbakheadding">మీ సలహాలు సుచనలు</string>
+    <string name="telugumyreport_headding">మీ మునుపటి సమస్యలు</string>
+    <string name="myreport_headding">Your previous problems</string>
+    <string name="notificationheadding">Your latest notifications</string>
+    <string name="telugu_notificationheadding">తాజా ప్రకటనలు</string>
+    <string name="notification_cleartext">మీరు ఖచ్చితంగా అన్ని ప్రకటనలను క్లియర్ చేయాలనుకుంటున్నారా?</string>
+    <string name="facebook_app_id">208362062923574</string>
+    <string name="fb_login_protocol_scheme">fb208362062923574</string>
+
+    <string name="biography1">Dasyam Vinay Bhaskar ( born on 22nd November, 1969) is an Indian politician who is currently serving as a Member of Legislative Assembly from Warangal West constituency, Telangana. He is the brother of the former Sports Minister of Andhra Pradesh, Late Shri.Dasyam Pranay Bhaskar. Dasyam Vinay Bhaskar won the Assembly elections in the year 2009 and has been serving as an MLA since.</string>
+
+    <string name="biography2">He was born in Warangal, Telangana to Shilothri Devi and Dasyam Rangaiah, former Engineer in the Electricity Department. He received his early education from Kakatiya High School and St.Gabriels High School, Warangal and went on to do his Post graduation in Political Science from BR Ambedkar University. He took up politics after the demise of his brother and contested in the 1999 assembly elections as an Independent candidate and secured 37,000 votes. He contested again in the year 2004 as an Independent candidate and lost with a narrow margin of 1,416 votes.</string>
+
+    <string name="biography3">He contested in 2009 for Assembly elections from Telangana Rastra Samiti party and got elected as the Member of The Legislative Assembly. He resigned soon after he got elected to protest against Congress government in favour of separate statehood of Telangana. He won the byelection with a huge majority of 70,000 votes in 2010.Since then he has taken active part in the Telangana agitation movement and played a major role in the formation of the separate state. He was arrested twice for raising his voice in support of the formation of the separate state. In 2015, he was appointed as a Parliamentary Secretary for the Chief Ministers Office. He is socially responsible and organised many awareness camps on the Effects Of Plastic and was successful in making Warangal Plastic Free. He also took special interest in organising multiple Blood Donation Camps. </string>
+
+    <string name="journey_1986">1986</string>
+    <string name="journey_1986_value">Started career with Telugu Desam Party as Division President</string>
+    <string name="tjourney_1986_value">1986 లో తెలుగుదేశం పార్టీ డివిజన్ అధ్యక్షుడిగా రాజకీయ ఆరంగ్రేట్రం చేశారు.</string>
+    <string name="journey_1987">1987-1988</string>
+    <string name="journey_1987_value">Worked as Telugu Desam Party city youth member</string>
+    <string name="tjourney_1987_value">తెలుగుదేశం పార్టీ నగరం యువజన విభాగం సభ్యుడిగా పనిచేశారు.</string>
+    <string name="journey_1990">1990-1994</string>
+    <string name="journey_1990_value">Served as District Party Youth Committee Member in Telugu Desam Party</string>
+    <string name="tjourney_1990_value">తెలుగుదేశం పార్టీ జిల్లా యువజన విభాగం సభ్యుడిగా పనిచేశారు. </string>
+    <string name="journey_1997">1997</string>
+    <string name="journey_1997_value">Went on to become District TNTUC President</string>
+    <string name="tjourney_1997_value">జిల్లా TNTUC అధ్యక్షుడుగా ఎదిగారు.</string>
+    <string name="journey_1998">1998</string>
+    <string name="journey_1998_value">Worked as Telugu Desam Party Incharge in Hanamakonda Constituency</string>
+    <string name="tjourney_1998_value">హన్మకొండ నియోజకవర్గం తెలుగుదేశం పార్టీ ఇంచార్జ్ గా పనిచేశారు.</string>
+    <string name="journey_1999">1999</string>
+    <string name="journey_1999_value">Contested as an Independent candidate &amp; secured 37,000 votes</string>
+    <string name="tjourney_1999_value">స్వతంత్ర అభ్యర్థిగా హన్మకొండ నియోజకవర్గం నుండి పోటీచేసి 37,000 ఓట్లు సంపాదించి స్వల్ప ఓట్ల తేడాతో ఓటమి పాలయ్యారు.</string>
+    <string name="journey_2000">2000-2004</string>
+    <string name="journey_2000_value">Founder of Telangana Karmika Aikya Vedika\nFormed many trade unions in organised and unorganised sectors &amp; fought for the rights of organised and unorganised labour</string>
+    <string name="tjourney_2000_value">తెలంగాణ కార్మిక ఐక్య వేదిక ను ఏర్పాటు చేసి వ్యవస్థీకృత అసంఘటిత రంగాల్లో ఉన్న అన్ని కార్మిక సంఘాలను ఏకధాటిపైకి తీసుకువచ్చి కార్మిక హక్కుల కోసం పోరాడారు</string>
+    <string name="journey_2004">2004</string>
+    <string name="journey_2004_value">Contested as an Independent candidate and secured 59,100 votes. Lost narrowly with a margin of 1,416 votes</string>
+    <string name="tjourney_2004_value">రెండవసారి కూడా స్వతంత్ర అభ్యర్థిగా పోటీచేసి 59.100 ఓట్లు సంపాదించి,  1,416 ఓట్ల స్వల్ప తేడాతో పరాజయం పాలయ్యారు.</string>
+    <string name="journey_2005">2005</string>
+    <string name="journey_2005_value">Joined Telangana Rashtra Samiti and participated actively in the Telangana movement</string>
+    <string name="tjourney_2005_value">తెలంగాణ రాష్ట్ర సమితిలో చేరారు. తెరాస లో చేరినప్పటినుండి తెలంగాణ ఉద్యమంలో చురుకుగా పాల్గొన్నారు.</string>
+    <string name="journey_2006">2006</string>
+    <string name="journey_2006_value">Got elected as a Corporator from Warangal for the 37th Division During his term, he provided amenities to most of the Government schools and Orphanages. His Division was also recognised as a Clean and Green division.</string>
+    <string name="tjourney_2006_value">లో  వరంగల్ మున్సిపల్ కార్పొరేషన్ ఎన్నికల్లో 37వ డివిజన్ నుండి కార్పొరేటర్ గా  ఎన్నికయ్యారు. వినయ్ భాస్కర్ గారు కార్పొరేటర్ గా ఎన్నికైనప్పటి నుండి తన కార్పొరేషన్ డివిజన్ లోని ప్రభుత్వ పాఠశాలలు మరియు అనాధ శరణాలయాలు అభివృద్ధికి నిధులు తీసుకువచ్చి వాటి అభివృద్ధికి కృషి చేయడం జరిగింది. అతని కార్పొరేషన్ డివిజన్ వరంగల్ లోనే  ఒక క్లీన్ మరియు గ్రీన్ డివిజన్ గా  గుర్తించబడింది.</string>
+    <string name="journey_2007">2007</string>
+    <string name="journey_2007_value">Served as Telangana Rashtra Samiti Urban President Took an active part in the Telangana agitation Worked hard to strengthen Telangana Rashtra Samiti in Warangal (Urban) Formed Division Committees</string>
+    <string name="tjourney_2007_value">వరంగల్ అర్బన్ తెరాస పార్టీ అధ్యక్షుడిగా ఎన్నికై , తెలంగాణ రాష్ట్ర సమితి బలోపేతం చేయడానికి వరంగల్ అర్బన్ లోని ప్రతి వార్డ్ లో కమిటీలను ఏర్పాటు చేసి పార్టీ బలోపేతానికి కృషి చేశారు .</string>
+    <string name="journey_2009">2009</string>
+    <string name="journey_2009_value">Fought for assembly elections from Telangana Rashtra Samiti and won with a Margin of 6684 votes</string>
+    <string name="tjourney_2009_value"> జరిగిన సాధారణ ఎన్నికల్లో తెలంగాణ రాష్ట్ర సమితి తరపున వరంగల్ పశ్చిమ నియోజకవర్గ శాసన సభ్యునిగా పోటీ చేసి 6684 ఓట్ల మెజార్టీతో గెలుపొందారు.</string>
+    <string name="journey_2010">2010</string>
+    <string name="journey_2010_value">Resigned from his position to protest against the Congress government in order to achieve separate statehood for Telangana </string>
+    <string name="tjourney_2010_value">తెలంగాణ ప్రత్యేక రాష్ట్ర ఉద్యమం ఉదృతంగా సాగుతున్న తరుణంలో  ప్రజల ఆకాంక్షను కేంద్ర ప్రభుత్వనికి తెలియజేసేందుకు కాంగ్రెస్ ప్రభుత్వానికి వ్యతిరేకంగా తన శాసన సభ్యత్వానికి  రాజీనామా చేసి తిరిగి మరల జరిగిన ఉప ఎన్నికలలో భారీ  మెజారిటీతో గెలిచి రెండవసారి ఎన్నికయ్యారు. </string>
+    <string name="journey_2014">2010 - 2014   Telangana Movement</string>
+    <string name="journey_2014_value">Participated in Chalo Assembly Protested against Andhra Pradesh Formation Day Was house arrested for protesting Was arrested twice for raising his voice in support of Telangana Worked towards providing uninterrupted power supply to farmers during which he was arrested by the Octopus squad Organised multiple Blood Donation camps Encouraged sportsmen by conducting various sports events Provided hand wash areas and basic amenities in schools in collaboration with ASCI under the program Mana Badi Mana Badyata Organised many awareness camps on the effects of plastic and was successful in making Warangal plastic free Was invited twice to attend the Young Leaders Summit held in Indian School of Business Was recognised as the Most Approachable MLA in united Andhra Pradesh in a survey conducted by a popular local News channel (CNN IBN)</string>
+    <string name="tjourney_2014_value"> 2009 - 2014  మధ్య జరిగిన మలి దశ తెలంగాణ ఉద్యమంలో సమైక్యాంధ్ర ప్రభుత్వానికి వ్యతిరేకంగా ఆంధ్రప్రదేశ్ అవతరణ దినాన్ని వ్యతిరేకించి అరెస్ట్ అయ్యారు. అంతేకాకుండా తెలంగాణ రాష్ట్రం కోసం జరిగిన పోరాటంలో వరంగల్ జిల్లా కేంద్రంగా రైల్ రోకో , నిరాహార దీక్షలు , తెలంగాణ ధూంధాం , రాస్తా రోకో లాంటి కార్యక్రమాలు చేపట్టి ఉద్యమాన్ని ఉరకలెత్తించాడు . అంతే కాకుండా రైతులకు నిరంతర విద్యుత్తు సరఫరా చేయాలనే డిమాండ్ తో విద్యుత్తు భవన్ ని ముట్టడించిన సమయంలో అరెస్ట్ అయ్యి చంచలగూడ సెంట్రల్ జైలులో కూడా ఉన్నాడు .అంతేకాకుండా తన నియోజకవర్గంలో అత్యుత్తమ విద్యను అందించాలనే ఉద్దేశంతో ASCI సహకారంతో "మన బడి - మన బాధ్యత" పేరిట అవగాహన కార్యక్రమాలను నిర్వహించి ప్రజలను భాగస్వాములను చేస్తూ ప్రభుత్వ బడుల అభివృద్ధికి కృషి చేశారు.ప్లాస్టిక్ రహిత సమాజం కోసం అనేక అవగాహన కార్యక్రమాలను నిర్వహించారు.రక్త దాన శిబిరాలు , ఆటల పోటీలను అనేక సార్లు నిర్వహించారు .ఇండియన్ స్కూల్ ఆఫ్ బిజినెస్ ప్రతి ఏటా నిర్వహించే యంగ్ లీడర్ సమ్మిట్ లో రెండు మార్లు పాల్గొని తన భావాలను అక్కడ పంచుకున్నారు . ఇదే కార్యక్రమం లో సిఎన్ఎన్ ఐబిఎన్ నిర్వహించిన ఒక సర్వేలో ప్రజలకు దగ్గరగా పని చేసే నాయకుడిగా ఆనాటి ఆంధ్రప్రదేశ్ ప్రభుత్వం గుర్తించింది.2014 లో తెలంగాణ రాష్ట్రం వచ్చిన తర్వాత జరిగిన సాధారణ ఎన్నికల్లో వరంగల్ పశ్చిమ నుండి పోటీ చేసి మరల భారీ మెజారిటీ తో విజయం సాధించారు.</string>
+    <string name="journey_2015">2015</string>
+    <string name="journey_2015_value">Was appointed as a Parliamentary Secretary for the Chief Ministers office Strived hard to bring Warangal under Hriday and Amrit Scheme and was successful in achieving it.</string>
+    <string name="tjourney_2015_value">ముఖ్యమంత్రి కార్యాలయ పార్లమెంటరీ సెక్రటరీగా నియమితులయ్యారు.
+హృదయ్ పథకం మరియు స్మార్ట్ సిటీ  కింద వరంగల్ నగరాన్ని తీసుకురావడానికి వినయ్ భాస్కర్ గారు కృషి చేసి విజయవంతం అయ్యారు.</string>
+    <string name="tourism">We are dedicated to working towards making Warangal a tourist destination. We would appreciate it you join hands with us in making our vision a reality. Kindly fill up the suggestion form below and share your ideas with us.</string>
+    <string name="nonetwork">you are not connected to our server.....\n Please check your network connection..?</string>
+
+    <string-array name="report_submit_subject">
+        <item>-- SELECT SUBJECT --</item>
+        <item>EDUCATION</item>
+        <item>HEALTH</item>
+        <item>WATER</item>
+        <item>SANITATION</item>
+        <item>ROADS</item>
+        <item>ELECTRICITY</item>
+        <item>OTHER</item>
+    </string-array>
+    <string-array name="telugureport_submit_subject">
+        <item>-- సమస్యను ఎంచుకోండి --</item>
+        <item>చదువుల సమస్యలు</item>
+        <item>ఆరోగ్య సమస్యలు</item>
+        <item>నీటి సమస్యలు</item>
+        <item>పారిశుధ్య సమస్యలు</item>
+        <item>రహదారుల సమస్యలు</item>
+        <item>విద్యుత్ సమస్యలు</item>
+        <item>ఇతర సమస్యలు</item>
+    </string-array>
+    //array for gender
+    <string-array name="reg_gender">
+        <item>-- Gender --</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+    //array for locality
+    <string-array name="reg_locality">
+        <item>-- Select division --</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+    </string-array>
+    //Consumer Key (API Key) rs2jjzShvGV47MidZZVlNjzAO
+    //Consumer Secret (API Secret) WUcR1u1AeLhC0KRAxf3Sc3jJoPSGAaUUTvfWPJQOgLY3t9YOCS
+
+    //Actionbar english Titles
+    <string name="title_ebiography"></string>
+    <string name="title_emyjourney"></string>
+    <string name="title_efeedback"></string>
+    <string name="title_econtact"></string>
+    <string name="title_eevents"></string>
+    <string name="title_etourism"></string>
+    <string name="telugu_notification">నోటిఫికేషన్స్</string>
+
+    //english language strings
+    <string name="english_home">Home</string>
+    <string name="english_report"> Report</string>
+    <string name="english_myReports">My Reports</string>
+    <string name="english_tourism">Tourism</string>
+    <string name="english_appname">Mee Vinay Bhaskar</string>
+    //telugu language strings
+    <string name="language_telugu">తెలుగు</string>
+    <string name="telugu_home">హౕమ్</string>
+    <string name="telugu_report">సమస్యలు</string>
+    <string name="telugu_myreports">నా సమస్యలు</string>
+    <string name="telugu_tourism">టుుారిజం</string>
+    <!--string name="telugu_appname">మీ దాశ్యం వినయ్ బాసఽర్</string> -->
+    <string name="telugu_appname">మీ దాస్యం</string>
+    //Navigation view title in telugu
+    <string name="nav_biography">నా గురించి</string>
+    <string name="nav_myjourney">నా ప్రయాణం</string>
+    <string name="nav_feedback">సలహాలు సుచనలు</string>
+    <string name="nav_contactus">చిరునామ</string>
+    <string name="nav_events">ఈవెంట్స్</string>
+
+    //Navigation view title in English
+    <string name="nav_ebiography">Biography</string>
+    <string name="nav_emyjourney">My Journey</string>
+    <string name="nav_efeedback">Feedback</string>
+    <string name="nav_econtactus">Contact Us</string>
+    <string name="nav_eevents">Events</string>
+
+    //telugu biography text
+    <string name="telugu_bio1">దాస్యం వినయ భాస్కర్ (22 నవంబర్ 1969 న జన్మించారు) ప్రస్తుతం వరంగల్ ప్రాశ్చిమ  నియోజకవర్గం నుంచి శాసన సభ సభ్యుడిగా తెలంగాణ రాష్ట్రం నుండి ప్రాతినిథ్యం వహిస్తున్నడు. వినయ్ బాస్కర్ గారు ఆంధ్రప్రదేశ్ మాజీ క్రీడల శాఖ మంత్రి దివంగత ప్రణయ్ భాస్కర్ గారి సోదరుడు. దాస్యం వినయ్ భాస్కర్ 2009 సంవత్సరం లో మొదటిసారిగా అసెంబ్లీ ఎన్నికల్లో వరంగల్ పశ్చిమ నియోజక వర్గం నుండి విజయం సాధించాడు .
+దాస్యం వినయ్ భాస్కర్ జన్మస్థలము వడ్డెపల్లి గ్రామం,వరంగల్, తెలంగాణ రాష్ట్రంలో జన్మించాడు, షిలోత్రి దేవీ మరియు దాస్యం  రంగయ్య పుణ్య దంపతుల రెండవ కుమారుడు. </string>
+    <string name="telugu_bio2"> వినయ్ బాస్కర్ గారు వరంగల్ లోని  కాకతీయ హైస్కూల్, సెయింట్  గాబ్రియేల్ స్కూల్లో తన ప్రాధమిక విద్యను మరియు బీఆర్ అంబేద్కర్ యూనివర్సిటీ నుండి రాజకీయ శాస్త్రంలో పోస్ట్ గ్రాడ్యుయేషన్ పూర్తి చెసారు. వినయ్ బాస్కర్ గారు తన సోదరుడు ప్రణయ్ బాస్కర్ గారి అకాల  మరణం తరువాత రాజకీయాల్లో ప్రవేశించారు .మొదటిసారి హన్మకొండ శాసనసభ నియోజకవర్గం నుండి  స్వతంత్ర అభ్యర్థిగా 1999 అసెంబ్లీ ఎన్నికల్లో పోటీచేసి 37,000 ఓట్లతో  పరాజయం పాలయ్యారు.   రెండవసారి కూడా అదే నియొజకవర్గం నుండి స్వతంత్ర అభ్యర్థిగా 2004 లో మళ్లీ పోటీ చేసి 1,500 ఓట్ల తేడాతో ఓడిపోయారు .
+తెలంగాణ రాష్ట్ర సమితి పార్టీ నుంచి అసెంబ్లీ ఎన్నికల్లో 2009 లో వరంగల్ పశ్చిమ నుండి పోటీ చేసి శాసన సభకు ఎన్నికయ్యారు. 2010 లో  తెలంగాణ ప్రత్యేక రాష్ట్ర ఉద్యమం ఉదృతంగా సాగుతున్న తరుణంలో  ప్రజల ఆకాంక్షను కేంద్ర ప్రభుత్వనికి తెలియజేసేందుకు కాంగ్రెస్ ప్రభుత్వానికి వ్యతిరేకంగా తన శాసన సభ్యత్వానికి  రాజీనామా చేసి తిరిగి మరల జరిగిన ఉప ఎన్నికలలో భారీ  మెజారిటీతో గెలిచి రెండవసారి ఎన్నికయ్యారు . </string>
+    <string name="telugu_bio3"> తెలంగాణ రాష్ట్రం ఏర్పడిన తరువాత జరిగిన  2014 ఎన్నికలలో  70,000 ఓట్ల భారీ మెజారిటీతో  గెలిచారు. ప్రత్యేక తెలంగాణ రాష్ట్ర ఏర్పాటు లో ప్రధాన పాత్ర పొషించారు వినయభాస్కర్ గారు . ప్రత్యేక తెలంగాణ రాష్ట్ర ఉద్యమం సాగుతున్న తరుణంలో పలు మార్లు అరెస్టు అయి జైలు శిక్ష కూడా అనుభవించారు .2015 లో, అతను ముఖ్యమంత్రి కార్యాలయ పార్లమెంటరీ సెక్రటరీగా నియమితులయ్యారు. వినయభాస్కర్ గారు తన  సామాజిక బాధ్యత లో బాగంగా  ప్లాస్టిక్ వస్తువులను బహిష్కరించాలని   పలు అవగాహన శిబిరాలు నిర్వహించడంతో ప్రజలలో అవగహన కల్పించి వరంగల్ నగరంలో  ప్లాస్టిక్ వాడకాన్ని తగ్గించడంలో కృషిచేశారు . అంతేకాకుండా  రక్తదానం పై అవగహన సదస్సులు నిర్వహించ రక్తదాన శిబిరాలను నిర్వహించేవారు .</string>
+<string name="telugutext_tourism">వరంగల్ నగరాన్ని పర్యాటక కేంద్రం గా తీర్చిదిద్ది ప్రపంచ దృష్టిని ఆకర్షించేలా మేము నిరంతరం కృషి చేస్తామని తెలుపుకుంటూ , ఈ మహా యజ్ఞంలో మీరు కూడా మన వరంగల్ నగర అభివృద్ధిలో  భాగస్వాములు అయి  మాతో చేతులు కలుపుతారని ఆశిస్తూ , మీ విలువైన సలహాలు, సూచనలను మాకు పంపవలసిందిగా కోరుతున్నాను . </string>
+
+</resources>

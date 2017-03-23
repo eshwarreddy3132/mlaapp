@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        card_view:cardCornerRadius="4dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="15dp">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:weightSum="1">
+               <TextView
+                   android:id="@+id/subject_news"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:paddingLeft="5dp"
+                   android:text="Subject:"
+                   android:textStyle="bold"
+                   android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                   />
+
+               <TextView
+                   android:id="@+id/date_news"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:paddingLeft="5dp"
+                   android:text="Date"
+                   android:gravity="end"
+                   android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                   />
+           </LinearLayout>
+
+            <ImageView
+                android:id="@+id/feedImg"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:paddingTop="10dp"
+                android:src="@mipmap/warangel"/>
+            <TextView
+                android:id="@+id/content_news"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:text="Content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

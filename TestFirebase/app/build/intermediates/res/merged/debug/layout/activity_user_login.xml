@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafafa">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/form_linearlayout"
+        android:layout_alignBottom="@+id/submitlay"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="22dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="513dp"
+                android:orientation="vertical"
+                android:padding="30dp">
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/loginMobileTtL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/editTextHint"
+                    android:paddingTop="50dp"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+                    <EditText
+                        android:id="@+id/loginmobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="phone"
+                        android:maxLength="10"
+                        android:hint="@string/hint_reg_mobile" />
+
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/loginotpTIL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/editTextHint"
+                    android:visibility="gone"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+                    <EditText
+                        android:id="@+id/loginotp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="phone"
+                        android:maxLength="10"
+                        android:hint="@string/enter_otp" />
+
+                </android.support.design.widget.TextInputLayout>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="25dp">
+                    <Button
+                        android:id="@+id/signin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btn_sign_in"
+                        android:visibility="gone"
+                        android:textColor="#FFFFFF"
+                        android:background="@color/actionbarcolor"
+                        android:layout_gravity="center"
+                        android:minHeight="?attr/actionBarSize"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline" style="@style/ButtonText"
+
+                    />
+                    <Button
+                        android:id="@+id/loginSubmit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btn_submit"
+                        android:textColor="#FFFFFF"
+                        android:background="@color/actionbarcolor"
+                        android:layout_gravity="center"
+                        android:minHeight="?attr/actionBarSize"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline" style="@style/ButtonText"                        />
+
+                    <LinearLayout
+                        android:id="@+id/resendlayout"
+                        android:layout_width="120dp"
+                        android:visibility="gone"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/loginResendotp"
+                            android:text="Resend OTP"
+                            android:textColor="@color/colorPrimary"
+                            android:paddingTop="25dp"
+                            android:textSize="20sp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@drawable/my_background"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/reg_text"
+                        android:textSize="20sp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="30dp"
+                        android:textColor="#6200EA"/>
+                    <Button
+                        android:id="@+id/signup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btn_sign_up"
+                        android:textColor="#FFFFFF"
+                        android:background="@color/actionbarcolor"
+                        android:layout_gravity="center"
+                        android:minHeight="?attr/actionBarSize"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline" style="@style/ButtonText"
+
+                        />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/notregistertext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:visibility="gone"
+                    android:textColor="@color/colorAccent"
+                    android:paddingTop="50dp"
+                    android:text="You may not registered with us. Please Register."/>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <!--android.support.design.widget.CoordinatorLayout-->
+</RelativeLayout>
+
+

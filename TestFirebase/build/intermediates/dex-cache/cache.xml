@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Android\TestFirebase\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9dfe830d64bdb546315430b637d170959acc2e2b">
+        <dex dex="C:\Android\TestFirebase\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_093dade274c38301c81f75e9b5d25d6e8f19f240\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\TestFirebase\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Android\TestFirebase\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_662a29aacdcae249532651a3dbb731493827ba6f\classes.dex" />
+    </item>
+
+</items>

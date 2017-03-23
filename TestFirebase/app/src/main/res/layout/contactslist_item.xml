@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:id="@+id/first"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:textSize="18dp"
+            android:text="Name"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textSize="18dp"
+            android:text="Designation"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textSize="18dp"
+            android:text="Office"
+            />
+
+    </LinearLayout>
+    <!--<View
+        android:id="@+id/divider"
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+       android:layout_toRightOf="@id/first"
+        android:background="@android:color/black" />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/first"
+        android:paddingLeft="10dp">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"
+            android:text="Name"
+            />
+        <TextView
+            android:id="@+id/designantion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:paddingTop="10dp"
+            android:text="designation"
+            android:layout_below="@+id/name" />
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:paddingTop="10dp"
+            android:text="numbere"
+            android:layout_below="@+id/name" />
+    </LinearLayout>
+
+</RelativeLayout>

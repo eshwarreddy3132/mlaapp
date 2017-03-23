@@ -1,0 +1,60 @@
+//buildscript {
+//    repositories {
+//        maven { url 'https://maven.fabric.io/public' }
+//    }
+//
+//    dependencies {
+//        classpath 'io.fabric.tools:gradle:1.+'
+//    }
+//}
+apply plugin: 'com.android.application'
+//apply plugin: 'io.fabric'
+
+//repositories {
+//    maven { url 'https://maven.fabric.io/public' }
+//}
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "main.com.dvb"
+        minSdkVersion 16
+        targetSdkVersion 24
+        versionCode 7
+        versionName "1.8"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    //    compile 'com.google.firebase:firebase-auth:9.8.0'
+    compile 'com.google.android.gms:play-services-auth:9.8.0'
+    //    compile 'com.google.firebase:firebase-database:9.8.0'
+    compile 'com.google.firebase:firebase-crash:9.8.0'
+    compile 'com.google.firebase:firebase-messaging:9.8.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.facebook.android:facebook-android-sdk:[4,5)'
+    compile 'com.android.support:design:24.2.1'
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:cardview-v7:24.2.1'
+    compile 'com.android.support:recyclerview-v7:24.2.1'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.google.code.gson:gson:2.2.4'
+
+
+//    compile('com.twitter.sdk.android:twitter:1.3.2@aar') {
+//        transitive = true;
+//    }
+//    compile files('/Users/AIA/AndroidStudioProjects/TestFirebase/libs/twitter4j-core-4.0.4.jar')
+}
+apply plugin: 'com.google.gms.google-services'
+

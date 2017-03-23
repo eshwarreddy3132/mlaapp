@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/progressBarCenter"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/newsList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/progressBar"
+            android:adjustViewBounds="true">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/newsList"
+            android:layout_alignRight="@+id/newsList"
+            android:layout_alignBottom="@+id/newsList"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@mipmap/float_button" />
+
+        <RelativeLayout
+            android:id="@+id/floatmenu_options"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_alignEnd="@+id/fab"
+            android:layout_alignRight="@+id/fab"
+            android:layout_above="@+id/fab"
+            android:visibility="gone"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1"
+                android:orientation="vertical"
+                android:gravity="bottom">
+                <LinearLayout
+                    android:id="@+id/email_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.15"
+                    android:padding="10dp"
+                    android:background="@color/card_white"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="E-Mail"
+                            android:gravity="center"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:layout_weight="0.7"/>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.3"
+                        android:src="@mipmap/email"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/message_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.15"
+                    android:padding="10dp"
+                    android:background="@color/card_white"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Messages"
+                        android:background="@color/card_white"
+                        android:gravity="center"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                        android:layout_weight="0.7"/>
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.3"
+                        android:src="@mipmap/message"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/whatsapp_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.15"
+                    android:padding="10dp"
+                    android:background="@color/card_white"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="WhatsApp"
+                        android:gravity="center"
+                        android:background="@color/card_white"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                        android:layout_weight="0.7"/>
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.3"
+                        android:src="@mipmap/whatsapp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

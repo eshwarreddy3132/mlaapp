@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:id="@+id/dialogLayout"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView"
+        android:src="@mipmap/tick1"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:textColor="@color/submit_popup"
+        android:textAlignment="center"
+        android:textSize="28dp"
+        android:text="Report Submitted"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_text"
+        android:paddingTop="4dp"
+        android:textColor="@color/submit_popup_text"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textAlignment="center"
+        android:text="Thank you, we appreciate your responsibility."
+        />
+    </LinearLayout>
+
+
+</LinearLayout>

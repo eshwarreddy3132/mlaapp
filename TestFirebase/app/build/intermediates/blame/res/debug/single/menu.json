@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\menu\\drawer_view.xml",
+        "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\menu\\drawer_view.xml"
+    },
+    {
+        "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\menu\\float_menu.xml",
+        "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\menu\\float_menu.xml"
+    }
+]

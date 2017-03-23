@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\education.png",
+        "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\mipmap-xhdpi\\education.png"
+    },
+    {
+        "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\myreportssolving.png",
+        "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\mipmap-xhdpi\\myreportssolving.png"
+    },
+    {
+        "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\roads.png",
+        "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\mipmap-xhdpi\\roads.png"
+    },
+    {
+        "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\message.png",
+        "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\mipmap-xhdpi\\message.png"
+    },
+    {
+        "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\whatsapp.png",
+        "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\mipmap-xhdpi\\whatsapp.png"
+    },
+    {
+        "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\others.png",
+        "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\mipmap-xhdpi\\others.png"
+    },
+    {
+        "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\health.png",
+        "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\mipmap-xhdpi\\health.png"
+    },
+    {
+        "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\email.png",
+        "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\mipmap-xhdpi\\email.png"
+    },
+    {
+        "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\myreportsreceive.png",
+        "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\mipmap-xhdpi\\myreportsreceive.png"
+    },
+    {
+        "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\electricity.png",
+        "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\mipmap-xhdpi\\electricity.png"
+    },
+    {
+        "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\water.png",
+        "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\mipmap-xhdpi\\water.png"
+    },
+    {
+        "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\myreportsolved.png",
+        "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\mipmap-xhdpi\\myreportsolved.png"
+    }
+]

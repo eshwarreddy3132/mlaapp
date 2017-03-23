@@ -1,0 +1,51 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="main.com.dvb.Dashboard_main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/notificationheadding_text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/notificationheadding"
+                android:layout_weight="0.6"
+                android:background="@color/BackgroundtWhiteColor"
+                android:paddingLeft="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                />
+            <LinearLayout
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:background="@color/BackgroundtWhiteColor"/>
+            <Button
+                android:id="@+id/clearall_notification"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="clear all"
+                android:layout_weight="0.4"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:background="@color/BackgroundtWhiteColor"/>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/notificationlistItems"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="1dp"
+            android:layout_below="@id/linear"
+            />
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

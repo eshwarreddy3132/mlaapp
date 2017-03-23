@@ -1,0 +1,7 @@
+#Thu Mar 23 10:35:54 IST 2017
+base.0=C\:\\Android\\TestFirebase\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_093dade274c38301c81f75e9b5d25d6e8f19f240
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Android\\TestFirebase\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_662a29aacdcae249532651a3dbb731493827ba6f\\classes.dex
+base.1=C\:\\Android\\TestFirebase\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_662a29aacdcae249532651a3dbb731493827ba6f
+file.0=C\:\\Android\\TestFirebase\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_093dade274c38301c81f75e9b5d25d6e8f19f240\\classes.dex

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:minHeight="40dp"
+        android:weightSum="1">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:src="@mipmap/ic_insert_invitation_black_48dp"
+        android:id="@+id/left_imageview" />
+
+    <TextView
+        android:id="@+id/lblListHeader"
+        android:layout_width="0dp"
+        android:ellipsize="end"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:maxLines="2"
+        android:paddingLeft="7dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_toRightOf="@+id/left_imageview"
+        android:layout_weight="0.8" />
+
+
+        <ImageView
+            android:id="@+id/imageview_arrow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/arrow_down"
+            android:layout_weight="0.1" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:textSize="16sp"
+                android:paddingBottom="10dp"
+                android:text="hellow world"
+                android:ellipsize="end"
+                android:maxLines="1"
+
+                android:id="@+id/subtitle"
+                />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:paddingBottom="10dp"
+            android:text="10-10-2017"
+            android:ellipsize="end"
+            android:visibility="gone"
+            android:maxLines="1"
+            android:id="@+id/eventdate"
+            />
+
+        </LinearLayout>
+
+
+</LinearLayout>
+
+

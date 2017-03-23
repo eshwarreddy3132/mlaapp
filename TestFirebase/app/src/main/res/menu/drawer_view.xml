@@ -1,0 +1,56 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="main.com.trestfirebase">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/media_coverage"
+            android:icon="@drawable/attachment"
+            android:title="Media Coverage"
+            android:visible="false"
+            app:itemBackground="@drawable/my_background"
+
+            />
+
+        <item
+            android:id="@+id/biography"
+            android:icon="@mipmap/biography"
+            android:title="Biography" />
+
+        <item
+            android:id="@+id/his_journey"
+            android:icon="@mipmap/journey_normal"
+            android:title="My Journey" />
+
+        <item
+            android:id="@+id/feedback"
+            android:icon="@mipmap/feedback"
+            android:title="Feedback" />
+
+        <item
+            android:id="@+id/videos"
+            android:icon="@mipmap/youtube_active"
+            android:visible="false"
+            android:title="Videos" />
+
+        <item
+            android:id="@+id/trs_gallery"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:visible="false"
+            android:title="TRS Gallery" />
+
+        <item
+            android:id="@+id/contactus"
+            android:icon="@mipmap/contact_normal"
+            android:title="Contact Us" />
+
+       <!-- <item
+            android:id="@+id/imp_contacts"
+            android:icon="@mipmap/contact_normal"
+            android:title="Impartent Contacts" />-->
+        <item
+            android:id="@+id/events"
+            android:icon="@mipmap/contact_normal"
+            android:title="Events" />
+    </group>
+</menu>

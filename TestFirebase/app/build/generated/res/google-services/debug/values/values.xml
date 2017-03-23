@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">259399906150-hbdifue4qtqi97v4btk9488q4240nid2.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://dasyamvinayabhaskar.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">259399906150</string>
+    <string name="google_api_key" translatable="false">AIzaSyDn7Yx5OyES0cjRhzWDZ0meSJa6-hPJkLk</string>
+    <string name="google_app_id" translatable="false">1:259399906150:android:c28728af58adb742</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDn7Yx5OyES0cjRhzWDZ0meSJa6-hPJkLk</string>
+    <string name="google_storage_bucket" translatable="false">dasyamvinayabhaskar.appspot.com</string>
+</resources>

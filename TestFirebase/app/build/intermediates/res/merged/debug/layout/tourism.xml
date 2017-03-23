@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Dashboard_main">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/warangal"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/warangel"/>
+            <RelativeLayout
+                android:id="@+id/relative"
+                android:layout_below="@id/warangal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <WebView
+                    android:id="@+id/webviewtourism_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    />
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/textviewtourism_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/telugutext_tourism"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/tourism_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|left"
+                android:layout_marginTop="10dp"
+                android:maxLines="10"
+                android:minLines="8"
+                android:padding="8dp"
+                android:layout_below="@id/relative"
+                android:lines="3"
+                android:overScrollMode="always"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="vertical"
+                android:background="@drawable/rounded_border_edittext"
+                android:inputType="textCapSentences|textMultiLine"
+                android:hint="Suggestions box"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/submit_tourism"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/tourism_edit"
+                android:layout_gravity="center"
+                android:minHeight="?attr/actionBarSize"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_weight="1"
+                style="@style/ButtonText"
+                />
+
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                android:layout_marginBottom="20dp" />
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

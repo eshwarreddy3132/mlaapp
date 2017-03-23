@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/actionbarcolor</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/my_background</item>
+        <item name="elevation">0dp</item>
+
+    </style>
+
+    <style name="Base.Widget.Design.Tab" parent="android:Widget">
+    <item name="tabBackground">@android:color/transparent</item>
+    <item name="tabIndicatorColor">#FFFFFF</item>
+    <item name="tabIndicatorHeight">2dp</item>
+    <item name="tabTextColor">#FFFFFF</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="editTextHint" parent="AppTheme">
+
+        <item name="android:textColorHint">@color/BackgroundtWhiteColor</item>
+        <item name="colorControlNormal">@color/BackgroundtWhiteColor</item>
+        <item name="colorControlActivated">@color/colorControlActivated</item>
+        <item name="colorControlHighlight">@color/BackgroundtWhiteColor</item>
+        <item name="android:textColorPrimary">@color/ReportTextColor</item>
+    </style>
+
+    <style name="TextAppearence.App.TextInputLayout" parent="@android:style/TextAppearance">
+    <item name="android:textColor">@color/colorHintActivated</item>
+    </style>
+
+    <style name="TextAppearence.App.TextInputLayout.Selected" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorControlActivated</item>
+    </style>
+
+    <style name="ButtonText" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/footerColor</item>
+        <item name="android:background">@color/colorControlActivated</item>
+    </style>
+    <style name="popupMenuStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/actionbarcolor</item>
+        <item name="android:itemBackground">@color/white</item>
+    </style>
+
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="main.com.dvb.SplashScreen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@mipmap/splash_bg"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="0.3"
+            android:weightSum="1">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/kcr"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="30dp"
+                android:src="@mipmap/kcr"
+                android:layout_weight="0.5"
+                app:civ_border_width="0dp"
+                app:civ_border_color="#FF000000"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ktr"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ktr"
+                app:civ_border_width="0dp"
+               android:paddingLeft="20dp"
+                android:paddingBottom="30dp"
+                android:paddingTop="20dp"
+                android:layout_weight="0.5"
+                app:civ_border_color="#FF000000"/>
+        </LinearLayout>
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/userImg"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@mipmap/dasyam"
+            android:layout_centerInParent="true"
+            app:civ_border_width="0dp"
+            android:layout_weight="0.4"
+            app:civ_border_color="#FF000000"/>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#EEEEEE"
+            android:text="Powered by art republiq"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

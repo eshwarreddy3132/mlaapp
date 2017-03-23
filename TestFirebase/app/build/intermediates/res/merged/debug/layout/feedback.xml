@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/feedbackText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+
+    <EditText
+        android:id="@+id/feedback_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:layout_below="@id/feedbackText"
+        android:maxLines="10"
+        android:minLines="8"
+        android:padding="8dp"
+        android:lines="3"
+        android:overScrollMode="always"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        android:background="@drawable/rounded_border_edittext"
+        android:inputType="textCapSentences|textMultiLine"
+        android:hint="Feedback" />
+
+    <Button
+        android:id="@+id/submit_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/feedback_edit"
+        android:layout_gravity="center"
+        android:minHeight="?attr/actionBarSize"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_weight="1"
+        style="@style/ButtonText"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+       android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:layout_marginBottom="20dp" />
+
+</RelativeLayout>

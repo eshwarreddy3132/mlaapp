@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\myreportsolved.png",
+        "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\mipmap-mdpi\\myreportsolved.png"
+    },
+    {
+        "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\myreportsreceive.png",
+        "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\mipmap-mdpi\\myreportsreceive.png"
+    },
+    {
+        "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\myreportssolving.png",
+        "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\mipmap-mdpi\\myreportssolving.png"
+    }
+]

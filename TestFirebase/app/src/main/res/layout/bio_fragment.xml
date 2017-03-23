@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard_main">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            
+            <ImageView
+                android:id="@+id/bioImg"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@mipmap/bio"/>
+
+            <LinearLayout
+                android:id="@+id/titleLay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bioImg"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/colorControlActivated"
+                android:minHeight="?actionBarSize">
+
+                <TextView
+                    android:id="@+id/name_t"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:text="Dasyam Vinay Bhaskar"
+                    android:textColor="#EEEEEE"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:text="(MLA, Warangal West)"
+                    android:textColor="#EEEEEE"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    />
+            </LinearLayout>
+
+            <WebView
+                android:id="@+id/biographytext1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_below="@id/titleLay"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                />
+            <WebView
+                android:id="@+id/biographytext2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_below="@id/biographytext1"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                />
+            <WebView
+                android:id="@+id/biographytext3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_below="@id/biographytext2"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                />
+            <TextView
+                android:id="@+id/telugu_textview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/telugu_bio1"
+                android:layout_below="@id/titleLay"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/telugu_textview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/telugu_bio2"
+                android:layout_below="@id/telugu_textview1"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/telugu_textview3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/telugu_bio3"
+                android:layout_below="@id/telugu_textview2"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:textSize="18sp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
