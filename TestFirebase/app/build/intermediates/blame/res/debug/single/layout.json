@@ -432,6 +432,10 @@
         "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\layout\\twitter_layout.xml"
     },
     {
+        "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\layout\\float_menu.xml",
+        "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\layout\\float_menu.xml"
+    },
+    {
         "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\layout\\events_listitem.xml",
         "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\layout\\events_listitem.xml"
     },

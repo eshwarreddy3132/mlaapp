@@ -65,13 +65,13 @@
                     android:background="@color/card_white"
                     android:orientation="horizontal"
                     android:weightSum="1">
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:text="E-Mail"
-                            android:gravity="center"
-                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                            android:layout_weight="0.7"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="E-Mail"
+                        android:gravity="center"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                        android:layout_weight="0.7"/>
 
                     <ImageView
                         android:layout_width="0dp"

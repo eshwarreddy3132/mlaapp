@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\whatsapp.png",
+        "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\mipmap-hdpi\\whatsapp.png"
+    },
+    {
+        "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\message.png",
+        "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\mipmap-hdpi\\message.png"
+    },
+    {
         "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\myreportsolved.png",
         "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\mipmap-hdpi\\myreportsolved.png"
     },
@@ -14,5 +22,9 @@
     {
         "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\myreportsreceive.png",
         "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\mipmap-hdpi\\myreportsreceive.png"
+    },
+    {
+        "merged": "C:\\Android\\TestFirebase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\email.png",
+        "source": "C:\\Android\\TestFirebase\\app\\src\\main\\res\\mipmap-hdpi\\email.png"
     }
 ]

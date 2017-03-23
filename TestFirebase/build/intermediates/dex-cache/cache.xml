@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="9dfe830d64bdb546315430b637d170959acc2e2b">
+        sha1="bdb33f884045305013088a20d9aa4829032a9361">
         <dex dex="C:\Android\TestFirebase\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_093dade274c38301c81f75e9b5d25d6e8f19f240\classes.dex" />
     </item>
     <item

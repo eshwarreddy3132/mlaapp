@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "259399906150",
+    "firebase_url": "https://dasyamvinayabhaskar.firebaseio.com",
+    "project_id": "dasyamvinayabhaskar",
+    "storage_bucket": "dasyamvinayabhaskar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259399906150:android:c28728af58adb742",
+        "android_client_info": {
+          "package_name": "main.com.dvb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259399906150-2tsgt7sn429u7711r592n11f59avn11k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "main.com.dvb",
+            "certificate_hash": "F20ED275F0269F985591144E1673976AA8B487DD"
+          }
+        },
+        {
+          "client_id": "259399906150-hbdifue4qtqi97v4btk9488q4240nid2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn7Yx5OyES0cjRhzWDZ0meSJa6-hPJkLk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259399906150-hbdifue4qtqi97v4btk9488q4240nid2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

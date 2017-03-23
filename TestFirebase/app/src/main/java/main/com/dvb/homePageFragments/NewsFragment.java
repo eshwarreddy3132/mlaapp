@@ -64,7 +64,7 @@ import static main.com.dvb.Dashboard_main.context;
  * Created by AIA on 12/8/16.
  */
 
-public class NewsFragment extends Fragment implements View.OnClickListener {
+public class NewsFragment extends Fragment implements View.OnClickListener{
     public static NewsFragment newsFragment;
     WebServices webServices;
     ProgressBar progressBar;
@@ -99,24 +99,7 @@ public class NewsFragment extends Fragment implements View.OnClickListener {
         emailLinear.setOnClickListener(this);
         messagesLinear.setOnClickListener(this);
         whatsAppLinear.setOnClickListener(this);
-        /*fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (flag== 0){
-                    flag=1;
-                    floatMenuOptions.setVisibility(View.VISIBLE);
-                    fab.setTag(R.mipmap.floatbutton_into);
-                    fab.setImageDrawable(ContextCompat.getDrawable(getContext(), R.mipmap.floatbutton_into));
-                }else {
-                    flag=0;
-                    floatMenuOptions.setVisibility(View.GONE);
-                    fab.setTag(R.mipmap.float_button);
-                    fab.setImageDrawable(ContextCompat.getDrawable(getContext(), R.mipmap.float_button));
-                }
-
-            }
-        });*/
-       /*fab.setOnClickListener(new View.OnClickListener() {
+       /* fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 fab.setImageDrawable(ContextCompat.getDrawable(getContext(), R.mipmap.floatbutton_into));
@@ -181,6 +164,9 @@ public class NewsFragment extends Fragment implements View.OnClickListener {
             newsAdapter = new NewsAdapter(Constants.newsBeanArrayList);
             newsRecycle.setAdapter(newsAdapter);
         }
+
+
+
         return view;
     }
 
@@ -212,7 +198,6 @@ public class NewsFragment extends Fragment implements View.OnClickListener {
             sendIntent.setPackage("com.whatsapp");
             startActivity(sendIntent);
         }if(v.getId() == R.id.fab){
-            Log.e("floating","messages");
             if (flag== 0){
                 flag=1;
                 floatMenuOptions.setVisibility(View.VISIBLE);
